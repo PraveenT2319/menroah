@@ -59,17 +59,17 @@
 			<li><a href="index.html">Home</a>
 			
 			</li>
-			<li><a href="aboutus.html">About Us</a></li>
+			<li class="active"><a href="aboutus.html">About Us</a></li>
 		
-		<li class="menu-item-has-children"><a href="javascript:void(0);">Packages</a>
-				<ul class="sub-menu">
+			<li class="menu-item-has-children"><a href="#">Packages</a>
+				<ul>
 					<li><a href="listingvone.html">Domestic Packages</a></li>
 					<li><a href="package2.html">International Packages</a></li>
 				</ul>
 			</li>
 			<li><a href="destinations.html">Theme</a>
 			</li>
-			<li class="active"><a href="contactus.html">Contact</a>
+			<li><a href="contactus.html">Contact</a>
 				
 			</li>
 		</ul>
@@ -87,7 +87,12 @@
 		<header id="tg-header" class="tg-header tg-haslayout">
 			<div class="container-fluid">
 				<div class="row">
+					<div class="tg-topbar">
+						<nav class="tg-infonav">
+							<ul>
+								
 					
+					</div>
 					<div class="tg-navigationarea tg-headerfixed">
 						<strong class="tg-logo"><a href="index.html"><img src="images/menorah-news.png" alt="company logo here"></a></strong>
 						<div class="tg-socialsignin">
@@ -111,21 +116,22 @@
 								<ul>
 									<li><a href="index.html">Home</a>
 									</li>
-									<li><a href="aboutus.html">About Us</a></li>
+									<li class="active"><a href="aboutus.html">About Us</a></li>
 									<li class="menu-item-has-children"><a href="javascript:void(0);">Packages</a>
-				                 <ul class="sub-menu">
-					            <li><a href="listingvone.html">Domestic Packages</a></li>
-					            <li><a href="package2.html">International Packages</a></li>
-				            </ul>
-			               </li>
+				<ul class="sub-menu">
+					<li><a href="listingvone.html">Domestic Packages</a></li>
+					<li><a href="package2.html">International Packages</a></li>
+				</ul>
+			</li>
 									<li><a href="destinations.html">Theme</a></li>
-									<li class="active"><a href="contactus.html">Contact Us</a></li>
+									<li><a href="contactus.html">Contact Us</a></li>
 								</ul>
 							</div>
 						</nav>
 					</div>
 				</div>
 			</div>
+		</div>
 		</header>
 		<!--************************************
 				Header End
@@ -157,7 +163,7 @@
 			  <h2 style="text-align: center;margin-top: 80px;">Reach us Through</h2>
 			  <hr>
 			  <div class="row">
-			  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-6">
+			  <div class="col-sm-12 col-md-4 col-lg-6">
 			  <label for="Name"><b>First Name</b></label>
 			  <input type="text" placeholder="Enter Name" name="Name" id="Name" required>
 			  <label for="email"><b>Email</b></label>
@@ -178,11 +184,11 @@
 	            </datalist>
 			  </div>
 
-			  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-6">
+			  <div class="col-sm-12 col-md-4 col-lg-6">
 				<label for="Name"><b>Last Name</b></label>
 			  <input type="text" placeholder="Enter Name" name="Name" id="Name" required><br>
 			  <label for="Number"><b>Phone Number</b></label>
-			  <input type="tel" placeholder="Enter Number" name="Number" id="Number" required><br><br>
+			  <input type="number" placeholder="Enter Number" id="Number" ><br><br>
 
 			  <label for="international"><b>International Packages</b></label>
 				<input type="text" name="cityname2" list="cityname2">
@@ -198,9 +204,10 @@
 				<option value="Thailand">
 	            </datalist>
 			</div>
-				
+			
+				<button binput type="Submit">Submit</button>
 		  </form>
-		  </div>
+		  
 		</section>
 		 
 		<!--************************************
@@ -212,7 +219,7 @@
 <section>	<main id="tg-main" class="tg-main tg-sectionspace tg-haslayout">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="col-sm-12 col-md-12 col-lg-12">
 						<div id="tg-content" class="tg-content">
 							<ul class="tg-contactinfo">
 								<li>
@@ -417,28 +424,7 @@
 									</fieldset>
 								</form>
 							</div>
-							<div role="tabpanel" class="tab-pane fade" id="profile">
-								<form class="tg-formtheme tg-formlogin">
-									<fieldset>
-										<div class="form-group">
-											<label>Name or Email <sup>*</sup></label>
-											<input type="text" name="firstname" class="form-control" placeholder="">
-										</div>
-										<div class="form-group">
-											<label>Password <sup>*</sup></label>
-											<input type="password" name="password" class="form-control" placeholder="">
-										</div>
-										<div class="form-group">
-											<div class="tg-checkbox">
-												<input type="checkbox" name="remember" id="remember">
-												<label for="remember">Remember Me</label>
-											</div>
-											<span><a href="#">Lost your password?</a></span>
-										</div>
-										<button class="tg-btn tg-btn-lg"><span>update profile</span></button>
-									</fieldset>
-								</form>
-							</div>
+							
 						</div>
 					</div>
 					<div class="tg-shareor"><span>or</span></div>

@@ -23,9 +23,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/color.css">
 	<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body class="tg-home tg-homevone">
 	<!--[if lt IE 8]>
@@ -58,12 +56,12 @@
 	*************************************-->
 	<nav id="menu">
 		<ul>
-			<li  class="active"><a href="index.html">Home</a>
+			<li><a href="index.html">Home</a>
 			
 			</li>
-			<li><a href="aboutus.html">About Us</a></li>
+			<li class="active"><a href="aboutus.html">About Us</a></li>
 		
-		<li class="menu-item-has-children"><a href="#">Packages</a>
+			<li class="menu-item-has-children"><a href="#">Packages</a>
 				<ul>
 					<li><a href="listingvone.html">Domestic Packages</a></li>
 					<li><a href="package2.html">International Packages</a></li>
@@ -86,24 +84,15 @@
 		<!--************************************
 				Header Start
 		*************************************-->
-		<header id="tg-header" class="tg-header  tg-haslayout">
+		<header id="tg-header" class="tg-header tg-haslayout">
 			<div class="container-fluid">
 				<div class="row">
-					<!-- <div class="tg-topbar">
+					<div class="tg-topbar">
 						<nav class="tg-infonav">
 							<ul>
-								<li>
-									<i><img src="images/icons/icon-01.png" alt="image destinations"></i>
-									<span>9036111562</span>
-								</li>
-								<li>
-									<i><img src="images/icons/icon-02.png" alt="image destinations"></i>
-									<span>CHOOSE YOUR EXPERIENCE <a href="javascript:void(0);">Discover more</a></span>
-								</li>
-							</ul>
-						</nav>
+								
 					
-					</div> -->
+					</div>
 					<div class="tg-navigationarea tg-headerfixed">
 						<strong class="tg-logo"><a href="index.html"><img src="images/menorah-news.png" alt="company logo here"></a></strong>
 						<div class="tg-socialsignin">
@@ -125,9 +114,9 @@
 							</div>
 							<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
 								<ul>
-									<li  class="active"><a href="index.html">Home</a>
+									<li><a href="index.html">Home</a>
 									</li>
-									<li><a href="aboutus.html">About Us</a></li>
+									<li class="active"><a href="aboutus.html">About Us</a></li>
 									<li class="menu-item-has-children"><a href="javascript:void(0);">Packages</a>
 				<ul class="sub-menu">
 					<li><a href="listingvone.html">Domestic Packages</a></li>
@@ -345,8 +334,8 @@
 			<!--************************************
 					Popular Tour Start
 			*************************************-->
-			<section class="tg-parallax" data-appear-top-offset="600" data-parallax="scroll" style="background-image: url('images/indiaaa-\(1\).jpg'); background-repeat: no-repeat;">
-				<div class="tg-sectionspace tg-haslayout">
+			<section class="tg-parallax" data-appear-top-offset="500" data-parallax="scroll" style="background-image: url('images/indiaaa-\(1\).jpg'); background-repeat: no-repeat;">
+				<div class="tg-sectionspace tg-haslayout" >
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -473,7 +462,7 @@
 								</div>
 								<div class="clearfix"></div>
 								<div class="row">
-									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+									<div class="col-sm-12 col-md-4 col-lg-3">
 										<div class="tg-populartour">
 											<figure>
 												<a href="#"><img src="images/international/Thailand.jpg" alt="image destinations"></a>
@@ -502,7 +491,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+									<div class=" col-sm-12 col-md-4 col-lg-3">
 										<div class="tg-populartour">
 											<figure>
 												<a href="#"><img src="images/international/Maldives.jpg" alt="image destinations"></a>
@@ -530,7 +519,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+									<div class="col-sm-12 col-md-4 col-lg-3">
 										<div class="tg-populartour">
 											<figure>
 												<a href="#"><img src="images/international/Singapore.jpg" alt="image destinations"></a>
@@ -556,7 +545,7 @@
 										</div>
 									</div>
 									
-									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+									<div class="col-sm-12 col-md-4 col-lg-3">
 										<div class="tg-populartour">
 											<figure>
 												<a href="#"><img src="images/international/Vietnam.jpg" alt="image destinations"></a>
@@ -584,7 +573,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+								<div class="col-sm-12 col-md-4 col-lg-3">
 									<div class="tg-populartour">
 										<figure>
 											<a href="#"><img src="images/international/UAE.jpg" alt="image destinations"></a>
@@ -610,7 +599,7 @@
 										</div>
 									</div>
 								</div>
-									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+									<div class="col-sm-12 col-md-4 col-lg-3">
 										<div class="tg-populartour">
 											<figure>
 												<a href="#"><img src="images/international/Australia.jpg" alt="image destinations"></a>
@@ -656,7 +645,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			
 		</main>
 		<!--************************************
 				Main End
@@ -667,9 +656,10 @@
 			<!--************************************
 					Destination Start
 			*************************************-->
-			<section class="tg-sectionspace tg-zerotoppadding tg-haslayout">
+			<!-- <section class="tg-sectionspace tg-zerotoppadding tg-haslayout">
 				<div class="container">
 					<div class="row">
+						<div class="col-lg-6 col-md-4 col-sm-12">
 						<div id="tg-destinationsslider" class="tg-destinationsslider tg-destinations owl-carousel">
 							<div class="item tg-destination">
 								<figure>
@@ -758,7 +748,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 
 			
